@@ -5,6 +5,8 @@
     --txt-gray: #4a4a4a;
     --color-primary: #4D41C0;
     --branco: #fff;
+    --cinza: #AAAAAA;
+
 }
 
 * {
@@ -101,12 +103,45 @@ a, a:hover{
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    border: 0;
 }
 
 .dsmovie-form-container{
     padding: 40px 0;
+    max-width: 480px;
 }
 
-.dsmovie-form-container{
-    max-width: 480px;
+.dsmovie-form-description{
+    background-color: var(--branco);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-description h3{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dsmovie-form{
+    width: 100%;
+}
+
+.dsmovie-form-group{
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-group label{
+    font-size: 12px;
+    color: var(--cinza);
+}
+.dsmovie-form-btn-container{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
