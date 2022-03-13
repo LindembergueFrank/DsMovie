@@ -6,7 +6,8 @@
     --color-primary: #4D41C0;
     --branco: #fff;
     --cinza: #AAAAAA;
-
+    --star: #FFBB3A;
+    --txt-aval: #989898;
 }
 
 * {
@@ -81,7 +82,7 @@ a, a:hover{
     align-items: center;
     border-radius: 0 0 8px 8px;
     align-items: center;
-    min-height: 150px;
+    height: 220px;
     justify-content: space-between;
 }
 
@@ -90,6 +91,29 @@ a, a:hover{
     font-weight: 700;
     margin-bottom: 25px;
     text-align: center;
+}
+
+.dsmovie-card-description-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-card-description-bottom h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star);    
+}
+
+.dsmovie-card-description-bottom img{
+    width: 22px;
+}
+
+.dsmovie-card-description-bottom p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--txt-aval);
+    margin-bottom: 10px;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover{
